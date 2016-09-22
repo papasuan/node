@@ -31,9 +31,9 @@ function show(res) {
 	           	    return '<li>' +item+ '</li>'
 	           }).join('')
 	           + '</ul>'
-	           + '<form method = 'POST' action = '/'>'
-	           + '<p><input type = 'text' name = 'item'/></p>'
-	           + '<p><input type = 'submit' value = 'ADD'/></p>'
+	           + '<form method = "POST" action = "/">'
+	           + '<p><input type = "text" name = "item" /></p>'
+	           + '<p><input type = "submit" value = "ADD"/></p>'
 	           + '</form></body></html>';
 
 	           res.setHeader('Content-Type' , 'text/html');
